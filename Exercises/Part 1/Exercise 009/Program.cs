@@ -6,7 +6,16 @@ namespace exercise_09
     {
         public static void Main(string[] args)
         {
-            // Write your code here:
+            Console.WriteLine("Hello, How are you doing?");
+            string FirstAnswer = Console.ReadLine();
+            Console.WriteLine("Really! Nice" + "\n" + "Are your sure?");
+            string SecondAnswer = Console.ReadLine();
+            Console.WriteLine("Why did you say then? " + FirstAnswer);
+            string ThirdAnswer = Console.ReadLine();
+            Console.WriteLine("Thx!, Anyways");
+
+            //CMD FIX
+            Console.ReadKey();
 
         }
     }
