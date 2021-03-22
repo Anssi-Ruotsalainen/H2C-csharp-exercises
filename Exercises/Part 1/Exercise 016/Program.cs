@@ -8,7 +8,12 @@ namespace exercise_16
     {
 
       // Write your code here:
+      Console.WriteLine("How many days?");
+      string second = Console.ReadLine();
+      int answer = Convert.ToInt32(second);  
+      Console.WriteLine(answer * 60 * 60 * 24 );
 
+      Console.ReadKey();
     }
   }
 }
