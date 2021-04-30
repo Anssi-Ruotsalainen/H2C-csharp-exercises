@@ -17,6 +17,12 @@ namespace exercise_68
         }
         list.Add(input);
       }
+      for (int index = 0; index < list.Count; index++)
+	  {
+        Console.WriteLine(list[index]);
+	  }
+
+      Console.ReadKey();
 
     }
   }
